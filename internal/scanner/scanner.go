@@ -29,7 +29,7 @@ import (
 // Version is the tool version stamped into every inventory, evidence
 // bundle, and PR body. Overridden at release time via
 // -ldflags "-X github.com/ramnbt/truthsayer/internal/scanner.Version=vX.Y.Z".
-var Version = "0.0.1-dev"
+var Version = "0.1.0"
 
 var skipDirs = map[string]bool{
 	".git": true, "vendor": true, "node_modules": true, ".idea": true,
